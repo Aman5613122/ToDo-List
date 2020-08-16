@@ -1,0 +1,108 @@
+body {
+  background-color: turquoise;
+}
+
+.main_div {
+  background-color: white;
+  min-height: 450px;
+  width: 300px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+.main {
+  background-color: violet;
+  text-align: center;
+  color: white;
+}
+
+input {
+  border: 0;
+  font-weight: bold;
+  font-size: 15px;
+  height: 35px;
+  padding: 0 12px;
+  margin: 10px;
+  outline: none;
+}
+
+button {
+  background-color: violet;
+  color: white;
+  border: 0;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+
+ol li {
+  list-style: none;
+}
+
+li {
+  margin-top: 15px;
+  position: relative;
+}
+
+.cross:before,
+.cross:after {
+  position: absolute;
+  margin-top: 15px;
+  left: 505px;
+  content: "";
+  height: 15px;
+  width: 2px;
+  background-color: red;
+
+  cursor: pointer;
+}
+
+.clross:before {
+  transform: rotate(50deg);
+}
+.cross:after {
+  transform: rotate(-50deg);
+}
+
+.list {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.list:nth-child(odd) {
+  background-color: lightcyan;
+}
+
+.list:nth-child(even) {
+  background-color: white;
+}
+
+.list p {
+  padding: 5px;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: darkviolet;
+}
+
+.list p span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+.faicons:hover {
+  color: red;
+}
